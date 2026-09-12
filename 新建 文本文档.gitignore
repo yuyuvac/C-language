@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.vcxproj.user
+
+# 临时文件
+*.log
+*.tmp
