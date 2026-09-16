@@ -1,14 +1,30 @@
-# 编译产物
+# Compile outputs
 *.exe
 *.o
 *.obj
 *.out
+*.ipch
 
-# 构建目录
+# Build directories
 build/
 Debug/
 Release/
 x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
-# IDE配置
+# IDE config
 .vscode/
+
+# Visual Studio user files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache directory (caused the Permission denied error)
+.vs/
