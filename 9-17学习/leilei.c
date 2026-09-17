@@ -12,26 +12,26 @@ int main()
 {
 	int ko = 0;
 	int a = 0;
-	saolei();
 	char mine[rows][cols];
 	char show[rows][cols];
 	srand((unsigned int)time(NULL));
 	do
 	{
-	
+		saolei();
 		scanf("%d", &a);
 		switch (a)
 		{
 		case 1:
-			Given(mine, row, col,'0');//给棋盘赋值
-			Given(show, row, col, '*');//给棋盘赋值
-			print(mine, row, col);//打印棋盘
+			Given(mine, rows, cols,'0');//给棋盘赋值
+			Given(show, rows, cols,'*');//给棋盘赋值
+			//打印棋盘print(mine, row, col);//打印棋盘
 			printf("\n");
 			print(show, row, col);//打印棋盘
 			printf("\n");
 			put(mine, row, col);//布置雷区
 			printf("\n");
-			print(mine, row, col);//查看雷区
+			//查看雷区print(mine, row, col);//查看雷区
+			printf("\n");
 			ko = find(mine, show, row, col);
 			if (ko == 1)
 			{

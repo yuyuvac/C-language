@@ -7,3 +7,4 @@ void Given(char arr[rows][cols], int x, int y, char set);
 void print(char arr[rows][cols], int x, int y);
 void put(char arr[rows][cols], int x, int y);
 int find(char arr[rows][cols],char brr[rows][cols], int x, int y);
+int plus(char arr[rows][cols], char brr[rows][cols], int x, int y);
